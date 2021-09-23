@@ -1,8 +1,6 @@
 <?php
 ini_set('max_execution_time', 36000);
 error_reporting(0);
-//Run API From : http://betawiki.balicasa.net/betabalicasawiki/extensions/ITaskTracker/SendQueue.php?local=/Local/wikibetasftp/BCwiki1
-//Run API CLI   /usr/bin/php /Local/wikibetasftp/template/mediawiki_1.28/extensions/ITaskTracker/SendQueue.php /Local/wikibetasftp/BCwiki1
 //$path= isset($_GET['local'])?$_GET['local']:"";       
 //var_dump($argv[1]);
 $path = $argv[1];
